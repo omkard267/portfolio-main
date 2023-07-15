@@ -1,0 +1,251 @@
+ @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@1&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+
+
+
+body{
+    background-color: #0d082d;
+
+}
+
+
+.container{
+    
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.navbar{
+    padding: 10px 10px;
+    border-radius: 25px;
+    background-color: rgb(23, 43, 91);
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    width: 100%;
+    height:auto;
+  
+    border-radius: 8px;
+    
+}
+
+.right-navbar-contact{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+   margin-right: 2em;
+    gap:3rem;
+    
+}
+.words1{
+   color:rgb(152, 238, 247);
+   text-decoration: none;
+   font-size: 2em;
+   font-family: VT323;
+   transform: scale(1);
+   transition-duration: 1 sec;
+   
+
+}
+#word2{
+    font-size: 2em;
+    font-family: Castoro Titling;
+    font-weight: 600;
+    color: aqua;
+   
+   
+}
+
+.words1:hover{
+    transform: scale(1.1);
+    color: rgb(40, 179, 229);
+
+}
+
+/*?????????????????????????????????????????????? */
+.section-2{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.container-me{
+   padding-top: 80px;
+   padding-bottom: 80px;
+    width: 1200px;
+    /* background-color: antiquewhite; */
+    position: relative;
+    left:5rem;
+
+}
+.right-me{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 60%;
+   gap:30px;
+}
+.mee{
+    font-size: 20px;
+    color: rgb(21, 200, 191);
+}
+.sub-heading{
+    font-size: 56px;
+    color: #9bc3dc;
+}
+.con{
+    font-size: 28px;
+    color: rgb(172, 208, 208);
+    margin-bottom: 18px;
+}
+.name-sh{
+    color: aliceblue;
+ user-select: none;
+   
+}
+.name-sh:hover{
+    font-size: 58px;
+    color: rgb(136, 136, 228);
+    
+}
+
+.button {
+    
+    color: rgb(0, 255, 162);
+    padding-top: 10px;
+    text-align: center;
+    text-decoration: none;
+    border: 3px solid rgb(3, 251, 164);
+    font-size: 22px;
+    margin: 4px 2px;
+    width:140px;
+    height: 40px;
+    cursor: pointer;
+    margin-bottom: 30px;
+    
+    
+  }
+  
+  .button1 {
+    background-color: #0d082d;
+    border-radius: 0.5rem;
+    user-select: none;
+
+    
+  }
+  .button1:hover{
+    background-color: #012837;
+    
+ 
+    
+  }
+
+  .one-skill{
+    font-size: 85px;
+    font-family: 'Times New Roman', Times, serif;
+     color: #9bc3dc;
+    display: block;
+    margin-left: 90px;
+    animation-name: one-skill-ani;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    user-select: none;
+ 
+    
+    
+  }
+  
+  @keyframes one-skill-ani {
+    0%{
+        color:#9bc3dc;
+    }
+    25%{
+       color: rgb(141, 47, 94);
+    }
+    50%{
+        color: #2d94ae;
+    }
+    75%{
+      color: #2a1a92;
+  }
+
+  }
+ 
+  @media (max-width:1000px){
+    .one-skill{
+        font-size: 75px;
+    }
+  }
+  @media (max-width:900px){
+    .one-skill{
+        font-size: 50px;
+    }
+  }
+  @media (max-width:620px){
+    .one-skill{
+        font-size: 30px;
+    }
+  }
+
+
+
+  
+@media (max-width:725px){
+  .logo-main{
+      height:25px;
+  }
+  .words1{
+    
+    font-size: 1em;
+  
+ }
+
+}
+  /*0000000000000000000000000000000000000000000000000000000*/
+
+  .section3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .containerr{
+     width: 1200px;
+     display: flex;
+     flex-direction: column;
+     flex-wrap: wrap;
+     margin-top: 80px;
+     margin-left: 200px;
+     margin-right: 200px;
+     margin-bottom: 300px;
+    
+
+  }
+  .head2-about{
+    color: rgb(82, 82, 228);
+    font-size: 40px;
+       display: flex;
+       justify-content:center ;
+       align-items: center;
+       font-family: 'Cinzel', serif;
+  }
+
+  .info-aboutme{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+  }
+
+  .info1{
+      font-size: 22px;
+      color: #a6e7e8;
+      font-family: 'Ysabeau SC', sans-serif;
+      
+  }
